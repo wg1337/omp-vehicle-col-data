@@ -1,3 +1,7 @@
+# What is it?
+
+Tools and a library to extract vehicle collision data from the GTA:SA game files. This data can be used in open.mp to get more detailed vehicle dimensions that are not available with GetVehicleModelInfo().
+
 # How to use it
 
 1) Clone the repo
@@ -66,4 +70,5 @@ bool:GetVehicleModelColMin(modelid, &Float:x, &Float:y, &Float:z) - gets the min
 bool:GetVehicleModelColMax(modelid, &Float:x, &Float:y, &Float:z) - gets the max collision box coordinates (not very useful by itself)
 bool:GetVehicleModelColSize(modelid, &Float:x, &Float:y, &Float:z) - gets the vehicle's collision box size
 bool:GetVehicleModelHeightAboveRoad(modelid, &Float:height) - gets the vehicle's height, including the wheel size, useful for determining how high should a car be spawned to be on the ground
+bool:GetVehicleModelColSphere(modelid, &Float:x, &Float:y, &Float:z, &Float:radius) - gets the vehicle's size in form of a sphere, useful to do quick overlap checks
 ```
