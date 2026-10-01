@@ -1,6 +1,7 @@
 # What is it?
 
 Tools and a library to extract vehicle collision data from the GTA:SA game files. This data can be used in open.mp to get more detailed vehicle dimensions that are not available with GetVehicleModelInfo().
+Mainly a recreation of `CVehicle::GetHeightAboveRoad()` in Pawn.
 
 # How to use it
 
